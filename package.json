@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiddenMana/NodeJS_blog.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "HocNodeJS",
+    "NoteNodeJS"
+  ],
+  "author": "Lamnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiddenMana/NodeJS_blog/issues"
+  },
+  "homepage": "https://github.com/HiddenMana/NodeJS_blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
